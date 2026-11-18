@@ -38,6 +38,5 @@ run.log
 *.log
 logs/
 hmdp-openapi.json
-README.md
 docs/
 jmeter/
