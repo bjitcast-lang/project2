@@ -37,3 +37,4 @@ cp.txt
 run.log
 *.log
 logs/
+hmdp-openapi.json
