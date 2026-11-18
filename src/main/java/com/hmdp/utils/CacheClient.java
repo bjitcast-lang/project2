@@ -18,7 +18,7 @@ import java.util.function.Function;
 import static com.hmdp.utils.RedisConstants.CACHE_NULL_TTL;
 
 /**
- * Redis 缓存工具类（黑马点评课程封装）。
+ * Redis 缓存工具类。
  * <p>
  * 提供三种缓存查询方案，按业务场景选择其中一种：
  * <ul>

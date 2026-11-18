@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "黑马点评 Hmdp API",
+    "title": "本地生活交易平台 API",
     "version": "1.0.0",
-    "description": "黑马点评项目接口文档（基于当前项目代码生成）。\n\n【认证方式】登录成功后 `POST /user/login` 返回的 `data` 即 token，后续请求把它放进请求头 `authorization` 即可。前端已自动从 sessionStorage 读取并附加。\n\n【未登录】受保护接口在缺少/无效 token 时返回 HTTP 401，前端会自动跳转登录页。\n\n【验证码】教学项目不真实发短信，验证码由后端 `sendCode` 打印在控制台日志中。\n\n【响应格式】统一为 `{success, errorMsg, data, total}`，`success=false` 时 `data` 为 null。"
+    "description": "本地生活交易平台接口文档（基于当前项目代码生成）。\n\n【认证方式】登录成功后 `POST /user/login` 返回的 `data` 即 token，后续请求把它放进请求头 `authorization` 即可。前端已自动从 sessionStorage 读取并附加。\n\n【未登录】受保护接口在缺少/无效 token 时返回 HTTP 401，前端会自动跳转登录页。\n\n【验证码】演示环境不真实发短信，验证码由后端 `sendCode` 打印在控制台日志中。\n\n【响应格式】统一为 `{success, errorMsg, data, total}`，`success=false` 时 `data` 为 null。"
   },
   "servers": [
     {

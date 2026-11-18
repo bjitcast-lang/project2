@@ -7,7 +7,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 基于 Redis 的分布式锁（黑马点评课程）。
+ * 基于 Redis 的分布式锁。
  * <p>
  * 锁的 value 记录持有者的标识：{@code UUID前缀 + 线程id}。
  * 释放锁时先比对 value，只有仍然是自己持有的锁才删除，

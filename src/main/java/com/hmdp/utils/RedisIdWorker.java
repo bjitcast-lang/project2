@@ -8,7 +8,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 /**
- * 基于 Redis 的全局唯一 ID 生成器（黑马点评课程）。
+ * 基于 Redis 的全局唯一 ID 生成器。
  * <p>
  * ID 结构（64 位 long）：
  * <pre>
